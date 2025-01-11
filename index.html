@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier projet HTML</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul type="square">
+                <li>
+                    <a href="#acceuil">Acceuil</a>
+                </li>
+                <li>
+                    <a href="#service">Services</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="acceuil">
+        <img id="myImage" src="/WhatsApp Image 2025-01-11 at 12.18.06.jpeg" alt="mon image" width="50%" height="1000px">
+        <h2>A propos de moi</h2>
+        <p class="describe-me">Je m'appelle Ibrahima Dione et je suis étudiant dans plusieurs instituts de formation en informatique. J'ai acquis une solide connaissance des langages de programmation, notamment JavaScript, Java et Python, ce qui me permet de développer diverses applications et de résoudre des problèmes techniques.</p>
+        <p class="describe-me">En plus de mes compétences en programmation, j'ai également des notions essentielles sur HTML et CSS, ce qui me donne une bonne compréhension du développement web et de la création de sites internet fonctionnels et esthétiques.</p>
+        <p class="describe-me">Ma curiosité et mon engagement envers l'apprentissage continu me poussent à m'adapter aux évolutions rapides du secteur technologique. Je suis enthousiaste à l'idée de mettre mes compétences en pratique à travers des projets concrets et je recherche activement des opportunités pour approfondir mon expertise en informatique et me préparer à une carrière prometteuse.</p>
+    </section>
+    <section id="service">
+        <h2>les services que je propose</h2>
+       <dl>
+        <dt>Développement de logiciels</dt>
+        <dd>Ce service implique la conception, le codage et la maintenance de logiciels sur mesure pour répondre aux besoins spécifiques des clients. Les informaticiens utilisent différents langages de programmation et frameworks pour créer des applications de bureau, des applications mobiles ou des systèmes d'exploitation, en veillant à l'expérience utilisateur (UX) et à la performance.</dd>
+        <dt>Gestion et maintenance des systèmes informatiques</dt>
+        <dd> Les informaticiens offrent des services de gestion et de maintenance des systèmes informatiques d'une organisation, y compris l'installation, la configuration et la mise à jour des serveurs et des bases de données. Cela comprend également la surveillance des performances, la mise en œuvre de solutions de sauvegarde et de récupération, ainsi que la résolution de problèmes techniques pour garantir la continuité des opérations.</dd>
+        <dt>Sécurité informatique</dt>
+        <dd>Ce service consiste à protéger les systèmes informatiques et les données contre les menaces externes et internes. Les informaticiens réalisent des audits de sécurité, mettent en place des protocoles de sécurité, et installent des outils de protection tels que des pare-feu et des logiciels antivirus. Ils forment également le personnel aux bonnes pratiques en matière de sécurité pour minimiser les risques de cyberattaques.</dd>
+        <dt>Développement web</dt>
+        <dd>Les informaticiens spécialisés dans le développement web créent et maintiennent des sites internet et des applications web. Ce service comprend la conception et le développement de l'interface utilisateur (UI) avec HTML, CSS, et JavaScript, ainsi que le développement côté serveur avec des technologies comme PHP, Node.js, ou d'autres langages. Ils s'assurent que les sites sont réactifs, accessibles et optimisés pour le référencement (SEO).</dd>
+       </dl>
+
+        <video src="Développeur informatique.mp4" autoplay></video>
+    </section>
+    <footer>
+    <section id="contact">
+        <h2>Me contacter</h2>
+        <form >
+            <label for="">PRENOM</label>
+            <input type="text" name="prenom" placeholder="Votre prenom"><br>
+            <label for="">NOM</label>
+            <input type="text" name="nom" placeholder="Votre nom"><br>
+            <label for="">EMAIL</label>
+            <input type="email" name="email" placeholder="Votre email"><br>
+            <label for="">TELEPHONE</label>
+            <input type="tel" name="telephone"><br>
+            <label for="comment">MESSAGE</label>
+            <textarea name="comment" id=""></textarea><br>
+            <button id="btn-valider">VALIDER</button>
+        </form>
+    </section>
+    </footer>
+</body>
+</html>
